@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Pushster&family=Raleway:wght@300&family=Zen+Antique&display=swap');
+
+:root {
+    --headercolor: #F8FFAE;
+    --footerColor: #43C6AC;
+  }
+  .mainDiv{
+    background-color: white;
+  }
+.btn {
+    padding: 10px;
+    border-radius: 50px;
+    background: var(--footerColor);
+    color: var(--headercolor);
+    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin: 0.5px auto;
+    font-family: 'Merriweather', serif;
+  }
+  .btn:hover{
+      color: white;
+  }
+  .card {
+    width: 60%;
+    height: 80%;
+    max-height: 300px;
+    padding: auto;
+    color: var(--footerColor);
+    text-align: center;
+    background: var(--headercolor);
+    border-radius: 10px;
+    margin: 40px 40px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 25px 25px 50px #fcfdb3, -25px -25px 50px #a9c5bc;
+  }
+  .h111{
+    font-family: 'Merriweather', serif;
+    color: var(--footerColor); 
+    margin-top: 80px;
+  }
+  .h444{
+    color: var(--footerColor);
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    margin-top: 10px;
+  }
